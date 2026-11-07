@@ -45,8 +45,8 @@ async function showDetails(id) {
     // Creating SectionTwo
     var sectionTwo = document.createElement('div');
     sectionTwo.innerHTML = `
-    <p class="text-uppercase pl-3 mt-5"> By: ${data.publication_history} </p>
-    <p class="text-uppercase pl-3"> By: ${data.provenance_text} </p>
+    <p class="text-uppercase ps-3 mt-5"> By: ${data.publication_history} </p>
+    <p class="text-uppercase ps-3"> By: ${data.provenance_text} </p>
     `;
 
     // Creating DeleteButton

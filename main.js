@@ -1,5 +1,4 @@
-const vm = new Vue({
-    el: '#app',
+const vm = Vue.createApp({
     data() {
         return {
             logged: '',
@@ -18,4 +17,4 @@ const vm = new Vue({
     mounted() {
         this.logApi();
     }
-})
+}).mount('#app')
